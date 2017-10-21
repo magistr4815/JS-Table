@@ -1,0 +1,97 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+    height: 100%;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#box_menu {
+	float: left;
+	background: #C2D7F3;
+	width: 170px;
+	min-height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#box_table {
+	height:100%;
+	box-sizing: border-box;
+	/*background-color: red;*/
+	width: auto;
+	/*border: 1px solid black;*/
+	margin: 0px 0 0 175px; 
+	padding: 5px 0 0 0;
+	overflow: auto;
+
+}
+
+.button {
+	width: 100%;
+	height: 30px;
+	background: #C2D7F3;
+	color: #283342;
+	font-size: 9pt;
+	font-weight: bold;
+	border-style: none;
+	box-shadow: 0 2px 0 #A4BED6;
+	margin-bottom: 2px;
+	outline:none;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.button:nth-child(6) {
+	margin-bottom: 15px;
+}
+
+.button:hover {
+	transition: 0.25s;
+	background: #B4CEEF;
+}
+
+#modal {
+	padding-bottom: 5px;
+	box-shadow: 0 2px 0 #A4BED6;
+	margin-bottom: 10px;
+}
+
+#modal > * ,#modal > * > * ,#modal > * > * > *, #info_row {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #283342;
+	font-size: 9pt;
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+.show {
+	display: block;
+}
+
+#modal4 {
+	float: right;
+}
+
+#modal5 {
+	width: 100%;
+}
+
+.hide {
+	display: none;
+}
+
+#main_table {
+    border: 4px solid #7697C4; /* Граница вокруг таблицы */
+    border-collapse: collapse;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.table_cell { 
+	border: 2px solid #DBC88F; /* Граница вокруг ячеек */
+	empty-cells: show;
+	padding: 0px 5px;  
+}

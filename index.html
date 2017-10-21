@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Таблица Front-End</title>
+		<meta charset='UTF-8'>
+		<link rel='stylesheet' href='css/style.css'>
+	</head>
+	<body>
+		<div id='box_menu'>
+			<button id='add_table' class="button" name="add_table">Добавить таблицу</button>
+			<button id='insert_row' class="button" name="insert_row">Вставить строку</button>
+			<button id='add_row' class="button" name="add_row">Добавить строку</button>
+			<button id='get_data' class="button" name="get_data">Получить JSON</button>
+			<button id='clean_table' class="button" name="clean_table">Очистить таблицу</button>
+			<button id='delete_table' class="button" name="delete_table">Удалить таблицу</button>
+				<form id="modal" class="show hide" name="test" method="post" action="input1.php">
+					<p>Строк: <input id='modal1' type="text" size="11"><br></p>
+					<p>Имя столбца:</p>
+					<input id='modal2' type="text" size="18">
+					<p><input id='modal3' type="button" value="Добавить"> <input id='modal4' type="button" value="Удалить"></p>
+					<p><select id='modal5' size="6" name="hero" >
+					</select></p>
+					<p><input id='modal6' type="checkbox" name="option1" value="a1">Ячейка заголовка</p>
+					<p><input id='modal7' type="checkbox" name="option2" value="a2">Нечетная строка</p>
+					<p><input id='modal8' type="checkbox" name="option3" value="a3">Четная строка</p> 
+					<p><input id='modal9' type="button" value="Ок"> <input id='modal10' type="reset" value="Очистить"></p>
+				 </form>
+			<div id='info_row'>Cтрока: <span></span></div>
+		</div>
+		<div id='box_table'></div>
+		<script src='js/script.js'></script>
+	</body>
+</html>
